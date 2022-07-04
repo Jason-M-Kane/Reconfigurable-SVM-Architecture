@@ -1,0 +1,33 @@
+set_global_assignment -entity "uart" -library "uart" -name IP_TOOL_NAME "Qsys"
+set_global_assignment -entity "uart" -library "uart" -name IP_TOOL_VERSION "13.0sp1"
+set_global_assignment -entity "uart" -library "uart" -name IP_TOOL_ENV "Qsys"
+set_global_assignment -library "uart" -name SOPCINFO_FILE [file join $::quartus(qip_path) "../../uart.sopcinfo"]
+set_instance_assignment -entity "uart" -library "uart" -name SLD_INFO "QSYS_NAME uart HAS_SOPCINFO 1 GENERATION_ID 1384252951"
+set_global_assignment -library "uart" -name MISC_FILE [file join $::quartus(qip_path) "../../uart.cmp"]
+set_global_assignment -name SYNTHESIS_ONLY_QIP ON
+set_global_assignment -library "uart" -name MISC_FILE [file join $::quartus(qip_path) "../../uart.qsys"]
+
+set_global_assignment -library "uart" -name VHDL_FILE [file join $::quartus(qip_path) "uart.vhd"]
+set_global_assignment -library "uart" -name VERILOG_FILE [file join $::quartus(qip_path) "submodules/altera_reset_controller.v"]
+set_global_assignment -library "uart" -name VERILOG_FILE [file join $::quartus(qip_path) "submodules/altera_reset_synchronizer.v"]
+set_global_assignment -library "uart" -name SDC_FILE [file join $::quartus(qip_path) "submodules/altera_reset_controller.sdc"]
+set_global_assignment -library "uart" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/altera_merlin_slave_translator.sv"]
+set_global_assignment -library "uart" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "submodules/altera_merlin_master_translator.sv"]
+set_global_assignment -library "uart" -name VERILOG_FILE [file join $::quartus(qip_path) "submodules/altera_avalon_mm_bridge.v"]
+set_global_assignment -library "uart" -name VERILOG_FILE [file join $::quartus(qip_path) "submodules/uart_uart_0.v"]
+
+set_global_assignment -entity "altera_reset_controller" -library "uart" -name IP_TOOL_NAME "altera_reset_controller"
+set_global_assignment -entity "altera_reset_controller" -library "uart" -name IP_TOOL_VERSION "13.0"
+set_global_assignment -entity "altera_reset_controller" -library "uart" -name IP_TOOL_ENV "Qsys"
+set_global_assignment -entity "altera_merlin_slave_translator" -library "uart" -name IP_TOOL_NAME "altera_merlin_slave_translator"
+set_global_assignment -entity "altera_merlin_slave_translator" -library "uart" -name IP_TOOL_VERSION "13.0"
+set_global_assignment -entity "altera_merlin_slave_translator" -library "uart" -name IP_TOOL_ENV "Qsys"
+set_global_assignment -entity "altera_merlin_master_translator" -library "uart" -name IP_TOOL_NAME "altera_merlin_master_translator"
+set_global_assignment -entity "altera_merlin_master_translator" -library "uart" -name IP_TOOL_VERSION "13.0"
+set_global_assignment -entity "altera_merlin_master_translator" -library "uart" -name IP_TOOL_ENV "Qsys"
+set_global_assignment -entity "altera_avalon_mm_bridge" -library "uart" -name IP_TOOL_NAME "altera_avalon_mm_bridge"
+set_global_assignment -entity "altera_avalon_mm_bridge" -library "uart" -name IP_TOOL_VERSION "13.0"
+set_global_assignment -entity "altera_avalon_mm_bridge" -library "uart" -name IP_TOOL_ENV "Qsys"
+set_global_assignment -entity "uart_uart_0" -library "uart" -name IP_TOOL_NAME "altera_avalon_uart"
+set_global_assignment -entity "uart_uart_0" -library "uart" -name IP_TOOL_VERSION "13.0.1.99.2"
+set_global_assignment -entity "uart_uart_0" -library "uart" -name IP_TOOL_ENV "Qsys"
