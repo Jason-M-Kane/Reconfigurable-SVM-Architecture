@@ -1,0 +1,8 @@
+set_global_assignment -name IP_TOOL_NAME "ALTFP_COMPARE"
+set_global_assignment -name IP_TOOL_VERSION "12.1"
+set_global_assignment -name VHDL_FILE [file join $::quartus(qip_path) "fp32_compare_gt.vhd"]
+set_global_assignment -name MISC_FILE [file join $::quartus(qip_path) "fp32_compare_gt.bsf"]
+set_global_assignment -name MISC_FILE [file join $::quartus(qip_path) "fp32_compare_gt_inst.vhd"]
+set_global_assignment -name MISC_FILE [file join $::quartus(qip_path) "fp32_compare_gt.inc"]
+set_global_assignment -name MISC_FILE [file join $::quartus(qip_path) "fp32_compare_gt.cmp"]
+set_global_assignment -name MISC_FILE [file join $::quartus(qip_path) "fp32_compare_gt_syn.v"]

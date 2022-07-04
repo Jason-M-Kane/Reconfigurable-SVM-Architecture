@@ -1,0 +1,8 @@
+set_global_assignment -name IP_TOOL_NAME "RAM: 2-PORT"
+set_global_assignment -name IP_TOOL_VERSION "13.0"
+set_global_assignment -name VHDL_FILE [file join $::quartus(qip_path) "kernelRAM.vhd"]
+set_global_assignment -name MISC_FILE [file join $::quartus(qip_path) "kernelRAM.bsf"]
+set_global_assignment -name MISC_FILE [file join $::quartus(qip_path) "kernelRAM_inst.vhd"]
+set_global_assignment -name MISC_FILE [file join $::quartus(qip_path) "kernelRAM.inc"]
+set_global_assignment -name MISC_FILE [file join $::quartus(qip_path) "kernelRAM.cmp"]
+set_global_assignment -name MISC_FILE [file join $::quartus(qip_path) "kernelRAM_syn.v"]

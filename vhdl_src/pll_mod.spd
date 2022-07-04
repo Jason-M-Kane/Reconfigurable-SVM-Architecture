@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<simPackage>
+ <file path="pll_mod_sim/pll_mod.vho" type="VHDL" />
+ <topLevel name="pll_mod" />
+ <deviceFamily name="stratixv" />
+</simPackage>

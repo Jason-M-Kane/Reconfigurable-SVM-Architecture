@@ -1,0 +1,7 @@
+set_global_assignment -name IP_TOOL_NAME "ALTFP_LOG"
+set_global_assignment -name IP_TOOL_VERSION "13.0"
+set_global_assignment -name VHDL_FILE [file join $::quartus(qip_path) "fp32log.vhd"]
+set_global_assignment -name MISC_FILE [file join $::quartus(qip_path) "fp32log.bsf"]
+set_global_assignment -name MISC_FILE [file join $::quartus(qip_path) "fp32log_inst.vhd"]
+set_global_assignment -name MISC_FILE [file join $::quartus(qip_path) "fp32log.inc"]
+set_global_assignment -name MISC_FILE [file join $::quartus(qip_path) "fp32log.cmp"]
