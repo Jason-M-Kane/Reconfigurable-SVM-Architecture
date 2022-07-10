@@ -11,6 +11,6 @@ The FPGA is set up to have:
 &nbsp;&nbsp;&nbsp;&nbsp;A serial RX line on hsma_d(3).  [Pin 44 on J1, 2.5V I/O, AP28.  Pin 6 on header.]  
 
 For direct serial communications, a circuit is required to adjust the voltage levels as needed.
-For bluetooth communicaions, a bluetooth to serial microcontroller (and possibly voltage level circuit) is required.  An STM32 device was used in our experiments (https://www.st.com).
+For bluetooth communicaions, a bluetooth to serial microcontroller (and possibly voltage level circuit) is required.
 
 Note: Stratix V Devices require an active Altera/Intel Quartus License  
