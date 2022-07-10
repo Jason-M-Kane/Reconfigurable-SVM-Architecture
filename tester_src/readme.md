@@ -1,4 +1,4 @@
-This executable was created to:
+This executable was created to:  
 &nbsp;&nbsp;&nbsp;&nbsp; 1. Transmit the model data to the support vector machine hardware over a comm port.  
 &nbsp;&nbsp;&nbsp;&nbsp; 2. Command the start of classification.  
 &nbsp;&nbsp;&nbsp;&nbsp; 3. Report the response time of the FPGA hardware.  
