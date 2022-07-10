@@ -14,3 +14,4 @@ For direct serial communications, a circuit is required to adjust the voltage le
 For bluetooth communicaions, a bluetooth to serial microcontroller (and possibly voltage level circuit) is required.
 
 Note: Stratix V Devices require an active Altera/Intel Quartus License  
+The models used for the testing preformed in the paper are provided in Model_Data.7z  
