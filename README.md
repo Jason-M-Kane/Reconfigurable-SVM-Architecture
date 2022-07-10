@@ -5,10 +5,10 @@ https://doi.org/10.1109/FCCM.2015.24
 
 The default implemented bench test design expects that a Windows PC is configured with the Test injection software and a USB bluetooth transmitter or serial port to send data/commands to the FPGA and receive results.  
 
-The Altera Stratix V DSP Edition reference board is the target for the VHDL implementation.
-The FPGA is set up to have:
-&nbsp;&nbsp;&nbsp;&nbsp;A serial TX line on hsma_d(1).  [Pin 42 on J1, 2.5V I/O, AK29.  Pin 4 on header.]
-&nbsp;&nbsp;&nbsp;&nbsp;A serial RX line on hsma_d(3).  [Pin 44 on J1, 2.5V I/O, AP28.  Pin 6 on header.]
+The Altera Stratix V DSP Edition reference board is the target for the VHDL implementation.  
+The FPGA is set up to have:  
+&nbsp;&nbsp;&nbsp;&nbsp;A serial TX line on hsma_d(1).  [Pin 42 on J1, 2.5V I/O, AK29.  Pin 4 on header.]  
+&nbsp;&nbsp;&nbsp;&nbsp;A serial RX line on hsma_d(3).  [Pin 44 on J1, 2.5V I/O, AP28.  Pin 6 on header.]  
 
 For direct serial communications, a circuit is required to adjust the voltage levels as needed.
 For bluetooth communicaions, a bluetooth to serial microcontroller (and possibly voltage level circuit) is required.  An STM32 device was used in our experiments (https://www.st.com).
