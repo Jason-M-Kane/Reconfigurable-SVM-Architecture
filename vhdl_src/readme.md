@@ -9,7 +9,7 @@ constant NUM_MODELS   			: integer := 1;
 constant TOTAL_NUM_SV 			: integer := 15000;  
 constant MAX_SV_IN_LRG_MODEL		: integer := 14610;  
 
-Where:
+Where:  
 &nbsp;&nbsp;&nbsp; *NUM_FEATURES* is the number of features associated with the model.  
 &nbsp;&nbsp;&nbsp; *NUM_CLASS_MAX* is the maximum number of classes the design will handle.   
 &nbsp;&nbsp;&nbsp; *NUM_MODELS* is the number of unique models that the FPGA will simulataneously keep in local Block RAM.  
