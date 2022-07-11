@@ -20,5 +20,5 @@ The features and class parameters are used to construct an optimal set of hardwa
 
 The total number of support vectors parameter, in combination with the maximum number of classes determines the amount of memory required for model data storage. To access a particular model’s data, an index to the start of that data is sent to the hardware along with kernel parameters. The maximum number of models parameter is used to determine the maximum number of supported models, and therefore the total number of unique model indices that may exist in the system. The final parameter, the maximum number of support vectors in the largest model, is used to determine the amount of the RAM required by the kernel unit.  
 
-For this demonstration project, the test executable is used to load model data and features into the FPGA over the serial UART interface.  In an actual application the model data would likely be preloaded or transmitted by some other means, and features would be streamed in real-time from an external interface.    
+For this demonstration project, the Windows test executable is used to load model data and stream features into the FPGA over the serial UART interface.  In an actual application the model data would likely be preloaded and features would be streamed in real-time from external interfaces.    
 
