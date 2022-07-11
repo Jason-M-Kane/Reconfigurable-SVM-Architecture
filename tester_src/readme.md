@@ -8,7 +8,7 @@ Before running, adjust the following in config.h and recompile:
 &nbsp;&nbsp;&nbsp;&nbsp; B.) Model Selection:  Only define one of the models in this file.  If a new model needs to be imported, the code will need to be adapted accordingly in the config file.  
   
 Note:  This software will currently only run on Windows as it makes use of specific Windows API calls.  
-
+The .sln file was created using MSVC 2010  
   
 **Usage:  Generic_SVM_Tester.exe**
 
